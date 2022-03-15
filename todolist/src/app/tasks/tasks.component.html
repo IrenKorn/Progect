@@ -1,0 +1,10 @@
+<ul>
+	<li *ngFor="let task of all_tasks">
+	{{task.id}}
+	<input type="checkbox" class="hidden-box" checked="checked" *ngIf="task.isComplete"/>
+	<input type="checkbox" *ngIf="task.isComplete==false"/>
+	<span class="time">{{task.time}}
+	{{task.name}}</span>
+	</li>
+</ul>
+

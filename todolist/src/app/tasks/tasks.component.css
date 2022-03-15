@@ -1,0 +1,10 @@
+ul{
+	list-style-type: none;
+}
+.time{
+	padding-right: 5px;
+}
+input:checked + span{
+      background: #F9F9F9;
+      text-decoration: line-through;
+    }
